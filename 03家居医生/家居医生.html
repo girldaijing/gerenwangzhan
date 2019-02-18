@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+    *{margin: 0px;padding: 0px}
+.top{background: rgb(24,190,190) url("images/logo.png") no-repeat center center;height: 70px;}
+.nav{height: 40px;background: rgb(239,239,239) ;line-height: 40px;}
+.nav a{color: black;text-decoration: none;}
+.nav_wrap{width: 1000px;margin-left: auto;margin-right: auto;}
+.nav_left{ display: inline-block;float: left;font-size:14px; }
+.nav_center{font-size:20px;text-align: center;}
+.nav_right{display: inline-block;float: right;font-size:14px;margin-top: -40px;}
+#nav{margin-right:40px; }
+.center{width: 1000px;margin-left: auto;margin-right: auto;}
+.conter p,span{margin: 10px; line-height: 50px; font-size: 18px; }
+.middle{height: 170px;background:rgb(239,239,239) ;}
+li{list-style: none;}
+#middle-one{color: rgb(140,212,212);}
+.middle span{margin:15px;line-height: 40px; font-size: 18px;}
+.middle span:hover{border: 3px solid rgb(255,167,0);background:#fff;}
+.last{ position: relative;height: 56px;background:rgb(239,239,239) ;margin-top: 20px;}
+.last-left{position: absolute;left: 0;line-height: 50px;}
+.last-left>span{margin:5px;line-height: 40px; font-size: 14px;}
+.last-center{width:150px;height:30px;}
+.last-center input{border-radius: 5px; background: #fff url("images/search.png") no-repeat center right ;outline: none;padding-right: 20px;margin:20px 350px;}
+.last-right{ font-size: 18px;position: absolute;right:50px;margin-top: -15px;}
+.last-right a{color: rgb(140,212,212);text-decoration: none; }
+.container{width: 1000px;margin-left: auto;margin-right: auto;}
+.container div{box-sizing: border-box;}
+.container>div{ margin-top: 20px;float: left;height: 350px;width: 240px;border:1px solid #333;text-align: center;background-color: rgb(235,235,235);}
+.container>.child{margin-right: 13.3333px;}
+row:after{content: "";display: block;clear:both;}
+#content-one{font-size: 14px;color: black; margin-right: 15px;line-height: 20px;}
+#content-two{color: rgb(24,190,190);font-size: 18px;margin-right: 20px;font-weight:bold;line-height: 30px;}
+#content-three{font-size: 14px;margin-right: 15px;line-height: 20px;color: rgb(24,190,190);}
+.content li{list-style: none;}
+.paging{width: 1000px;height: 50px;line-height: 20px;margin-left: auto;margin-right: auto;margin-top: 20px;}
+.paging span{margin-right: 10px;}
+#page{background-color:  rgb(239,239,239) ;width: 150px;height: 50px;}
+.paging button{background-color:rgb(255,167,0);width:65px; height: 32px;margin-left: 20px;}
+.paging input{border: 2px solid black;width: 15px;height: 15px;}
+.hyponasty{width: 1000px;height: 100px;margin-left: auto;margin-right: auto;margin-top: 800px;}
+.hyponasty-left{float: left;display: inline-block;}
+.hyponasty-right{margin-top: -50px;}
+.hyponasty-right span{color: rgb(24,190,190);font-size: 18px;margin-right:10px;line-height: 20px;}
+.hyponasty-right p{font-size: 14px;line-height: 25px;}
+.footer{background: rgb(81,81,81);height: 200px;color: #fff;}
+.foot{width: 1000px;height: 160px;margin-left: auto;margin-right: auto;}
+.foot-one{display: inline; width: 250px;font-size: 14px;float:left;}
+#foot{font-weight: bold;}
+.foot-two{display: inline;width: 250px;font-size: 14px;line-height: 40px;float:left;text-align: right;}
+.foot-three{display: inline;width: 250px;font-size: 14px;line-height: 40px;float: left;text-align: right;}
+.foot-four{display: inline;width: 250px;font-size: 14px;line-height: 40px; float: left;text-align: right;}
+.footer a{text-decoration: none;color:#fff;}
+.lie{height: 40px;line-height: 100px;}
+</style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="nav">
+    <div class="nav_wrap">
+      <div class="nav_left">
+        <img src="images/location.png">
+        <a href="#">深圳 &lt;切换&gt;</a>
+      </div>
+      <div class="nav_center">
+        <a href="#" id="nav">首页</a>
+        <a href="#" id="nav">资讯</a>
+        <a href="#" id="nav">测评</a>
+        <a href="#" id="nav">商城</a>
+      </div>
+      <div class="nav_right">
+        <img src="images/adm.png">
+        <a href="#">个人中心</a>
+      </div></div></div>
+    <div class="center">
+      <p>  <span>首页</span><span> > </span><span>预防装修污染</span><span> > </span><span>材料库</span><span> > </span></p>
+        <div class="middle">
+            <ul>
+                <li><span id="middle-one">类别</span><span>全部</span><span >地板</span><span>涂料</span><span>墙纸</span><span>瓷砖</span><span>粘胶剂</span><span>油漆</span><span>家具</span><span>板材</span><span>饰品</span><span><img src="images/indexSelect.png"></span></li>
+                <li><span id="middle-one">类型</span><span>全部</span></li>
+                <li><span id="middle-one">材质</span><span>全部</span><span >实木</span><span>复合</span><span>强化</span><span>其他</span></li>
+                <li><span id="middle-one">品牌</span><span>全部</span><span >圣象</span><span>大自然</span><span>生活家</span><span>北美枫情</span><span>德尔</span><span>博典</span><span>船王</span></li>
+           </ul>
+        </div>
+       <div class="last">
+            <div class="last-left">
+                   <span>发布时间</span><span><img src="images/downicon.png"></span><span>价格</span><span><img src="images/upicon.png"></span><span>环保节能</span><span><img src="images/upicon.png"></span>
+            </div>
+            <div class="last-center">
+                    <input type="text" placeholder="搜索">
+            </div>
+            <div class="last-right">
+                    <img src="images/wenhao.png">
+                    <a href="#">了解家居医生建材评级标准</a>
+            </div>
+        </div> 
+    </div>
+    <div class="container row">
+      <div class="child">
+        <img src="images/data_image.png">
+        <div class="content">
+          <ul>
+                <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                <li><span id="content-one">木地板-复合地板</span></li>
+                <li><span id="content-one">单价：128元/m*2</span></li></li>
+                <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+            </ul> 
+    </div></div>
+    <div class="child">
+        <img src="images/data_image.png">
+        <div class="content">
+                <ul>
+                      <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                      <li><span id="content-one">木地板-复合地板</span></li>
+                      <li><span id="content-one">单价：128元/m*2</span></li></li>
+                      <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+                  </ul> 
+    </div></div>
+    <div class="child">
+        <img src="images/data_image.png">
+        <div class="content">
+                <ul>
+                      <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                      <li><span id="content-one">木地板-复合地板</span></li>
+                      <li><span id="content-one">单价：128元/m*2</span></li></li>
+                      <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+                  </ul> 
+        </div></div>
+    <div><img src="images/data_image.png">
+        <div class="content">
+                <ul>
+                      <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                      <li><span id="content-one">木地板-复合地板</span></li>
+                      <li><span id="content-one">单价：128元/m*2</span></li></li>
+                      <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+                  </ul> 
+        </div></div>
+    <div class="child">
+        <img src="images/data_image.png">
+        <div class="content">
+                <ul>
+                      <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                      <li><span id="content-one">木地板-复合地板</span></li>
+                      <li><span id="content-one">单价：128元/m*2</span></li></li>
+                      <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+                  </ul> 
+        </div></div>
+    <div class="child">
+        <img src="images/data_image.png">
+        <div class="content">
+                <ul>
+                      <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                      <li><span id="content-one">木地板-复合地板</span></li>
+                      <li><span id="content-one">单价：128元/m*2</span></li></li>
+                      <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+                  </ul> 
+        </div></div>
+    <div class="child">
+        <img src="images/data_image.png">
+        <div class="content">
+                <ul>
+                      <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                      <li><span id="content-one">木地板-复合地板</span></li>
+                      <li><span id="content-one">单价：128元/m*2</span></li></li>
+                      <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+                  </ul> 
+        </div></div>
+    <div>
+        <img src="images/data_image.png">
+        <div class="content">
+                <ul>
+                      <li><span id="content-one">德尔</span><span id="content-one">都市系列</span></li>
+                      <li><span id="content-one">木地板-复合地板</span></li>
+                      <li><span id="content-one">单价：128元/m*2</span></li></li>
+                      <li><span id="content-two">环保评级：B </span><span id="content-three">(可以使用)</span></li>
+                  </ul> 
+        </div></div>
+</div>
+  <div class="paging">
+            <p><span id="page">上一页</span> <span>1</span> <span>2</span> <span>3</span> <span>4</span> <span>5</span> <span id="page">
+                下一页</span> <span>共有10页，去第<input type="text">页</input> <button>确定</button></p>
+    </div>
+    
+     <div class="hyponasty">
+            <div class="hyponasty-left">
+                    <img src="images/small_weixin.png">
+            </div>
+            <div class="hyponasty-right">
+                <p><span>建材检测</span><span>需求反馈</span></p>
+                <p>亲爱的用户，我们正在不断地完善和更新建材库，</p>
+                <p>若没有找到您想要的材料信息，请将您想要测的材料告诉我们。</p>
+            </div>
+    </div>
+   <div class="footer">
+            <div class="foot">
+                    <div class="foot-one">
+                        <img src="images/footerLogo.png">
+                      <P id="foot">为室内环境健康把好每一关</P>
+                        <p>家居医生致力于中国人的家居健康问题，通过专业的技术研究和测评，倾力协助大众打造绿色、环保的人居生活环境。</p>  
+                    </div>
+                        <div class="foot-two">
+                            <p> <a href="#" >关于我们</a></p>
+                                <p>  <a href="#" >联系我们</a></p>
+                                    <p> <a href="#" >加入我们</a></p>
+                    </div>
+                    <div class="foot-three">
+                            <p> <a href="#" >版权声明</a></p>
+                                <p><a href="#" >用户隐私</a></p>
+                                    <p><a href="#" >免责申明</a></p>
+                    </div>
+                    <div class="foot-four">
+                           <p><img src="images/weixin2.png"><a href="#" >官方微信</a></p>
+                           <p><img src="images/tianmao.png"><a href="#" >天猫旗舰店</a></p>
+                           <p><img src="images/shop.png"><a href="#" >有赞商城</a></p>
+                    </div>
+                    <div class="lie">
+                        <span>深圳建筑科学研究院有限公司</span><span>家居医生网</span><span>粤ICP备08011321号@Copyright</span>
+                    </div>
+    </div></div>
+</body>
+</html>
