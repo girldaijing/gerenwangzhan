@@ -126,7 +126,7 @@
         }
 
         .hid {
-            border: 1px solid #666;
+            /* border: 1px solid #666; */
             box-shadow: 0 0 1px 1px #666;
         }
 
@@ -259,19 +259,53 @@
             box-shadow: 0 0 1px 2px rgb(253, 202, 202);
         }
 
-        .foot{
+        .foot {
             height: 500px;
+            position: relative;
         }
 
-        .icon{
+        .icon {
             padding: 0 10%;
             display: flex;
             justify-content: space-between;
         }
-         .icon span{
-             display: inline-block;
-             font-size: 100px;
-         }
+
+        .icon i {
+            display: inline-block;
+            font-size: 100px;
+        }
+        .icon img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .icon a {
+            display: inline-block;
+            font-size: 100px;
+            color: black;
+        }
+        .wechat{
+            position: absolute;
+            top: 280px;
+            left: 31%;
+        }
+        .no{
+            display: none;
+        }
+        .wc:hover .wechat{
+            display: block;
+            box-shadow: 0 0 1px 2px rgb(243, 198, 198);
+        }
+        .qq{
+            position: absolute;
+            top: 280px;
+            left: 56%;
+        }
+        .qe:hover .qq{
+            display: block;
+            box-shadow: 0 0 1px 2px rgb(243, 198, 198);
+        }
+
     </style>
 </head>
 
@@ -391,26 +425,26 @@
     <div class="works">
         <a href="01全部商品/quanbu.html"><img src="images/one.jpg" alt="" title="小米全部商品"> </a>
         <a href="04小米官网/小米官网.html"> <img src="images/two.jpg" alt="" title="小米官网"></a>
-        <a href="02实木复合地板/实木复合地板.html"> <img src="images/three.jpg" alt=""  title="实木复合地板"> </a>
+        <a href="02实木复合地板/实木复合地板.html"> <img src="images/three.jpg" alt="" title="实木复合地板"> </a>
         <a href="03家居医生/家居医生.html"> <img src="images/four.jpg" alt="" title="家居医生"> </a>
-        <a href="06木兮地板/木兮地板.html"> <img src="images/five.jpg" alt=""  title="木兮地板"> </a>
-        <a href="07蛋糕/index.html"> <img src="images/six.jpg" alt=""  title="蛋糕"> </a>
+        <a href="06木兮地板/木兮地板.html"> <img src="images/five.jpg" alt="" title="木兮地板"> </a>
+        <a href="07蛋糕/index.html"> <img src="images/six.jpg" alt="" title="蛋糕"> </a>
         <a href="08锤子/锤子官网.html"> <img src="images/seven.jpg" alt="" title="锤子官网"> </a>
-        <a href="10小风车/小风车.html"> <img src="images/eight.jpg" alt=""  title="小风车"> </a>
+        <a href="10小风车/小风车.html"> <img src="images/eight.jpg" alt="" title="小风车"> </a>
         <a href="12小米服务/小米服务.html"> <img src="images/nine.jpg" alt="" title="小米服务"> </a>
-        <a href="05小米注册/小米注册.html"> <img src="images/ten.jpg" alt="" title="小米注册" > </a>
+        <a href="05小米注册/小米注册.html"> <img src="images/ten.jpg" alt="" title="小米注册"> </a>
         <a href="14小米盒子/xm-box.html"> <img src="images/eleven.jpg" alt="" title="小米盒子"> </a>
-        <a href="11家居用户中心/iframe课后练习/iframe.html"> <img src="images/twelve.jpg" alt=""  title="家居医生用户中心"> </a>
+        <a href="11家居用户中心/iframe课后练习/iframe.html"> <img src="images/twelve.jpg" alt="" title="家居医生用户中心"> </a>
     </div>
 
     <div class="foot" id="foot">
-          <h3 class="title" id="touch">你可以使用这些方式联系我</h3>
-           <p class="icon">
-               <span class="iconfont">&#xe618;</span>
-               <span class="iconfont">&#xe623;</span>
-               <span class="iconfont">&#xe609;</span>
-               <span class="iconfont">&#xea0a;</span>
-           </p>
+        <h3 class="title" id="touch">你可以使用这些方式联系我</h3>
+        <p class="icon">
+            <i class="iconfont" title="15172535485">&#xe618;</i>
+            <i class="iconfont wc">&#xe623; <img src="images/wechat.png" alt="" class="wechat no"></i>   
+            <i class="iconfont qe">&#xe609;<img src="images/qq.png" alt="" class="qq no"></i>
+            <a href="https://github.com/girldaijing" class="iconfont">&#xea0a;</a>
+        </p>
     </div>
     <script>
         window.onload = function () {
