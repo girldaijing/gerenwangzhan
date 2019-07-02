@@ -337,9 +337,9 @@ body {
     margin: 5px 10px;
 }
 .works-item img{
-    display: block;
+    display: inline-block;
     margin: 15px auto;
-    width: 150px;
+    width: 100px;
 }
 .works-item h4{
     font-weight: normal;
